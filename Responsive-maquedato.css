@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+} 
+
+
+
+html {
+  height: 100%;
+}
+
+section {
+  /* border: 1px black solid; */
+  border-radius: 5px;
+  margin: 5px; 
+} 
+
+main {
+  height: 100%;
+  background: rgb(39, 49, 70);
+}
+
+
+  .contenido {
+    display: grid;
+    background-color: #003f69 !important;
+  
+    grid-template:
+    "area-resultados" auto  
+    "area-comision" auto
+    "area-grafica" auto
+    "area-form" auto;
+  
+  }
+
+
+.section-comicio {
+  grid-area: area-comision;
+  background-color: lightpink;
+}
+
+
+.section-form {
+  grid-area: area-form;
+  
+}
+
+.section-grafica{
+  grid-area: area-grafica;
+  /* background-color: rgb(255, 255, 255); */
+ }
+
+
+
+
+
+
+
+
+@media (min-width:674px) {
+
+  
+ 
+  .section-btn{
+    display: none;
+  }
+
+  .contenido {
+    display: grid;
+    background-color: lightblue;
+   
+    
+    grid-template:
+      /* "area-btn area-btn"  auto */
+      "area-resultados area-resultados"  35%
+      "area-comision area-comision" 10%
+      "area-grafica  area-grafica"  1fr
+      "area-form     area-form "  1fr /
+            1fr        1fr        ;
+  
+  }
+
+    
+  .section-form{
+    color: white;
+  }
+ 
+
+}
+
+
+@media (min-width:1030px) {
+     
+  .contenido {
+    display: grid;
+    overflow: hidden;
+    /* background-color: lightblue; */
+    min-height:100vh;
+
+    grid-template:
+      /* "area-btn area-btn"  auto */
+      "area-resultados area-form"  65%
+      "area-comision area-grafica" 35% /
+            65%         35%       ;
+  
+  }
+
+}

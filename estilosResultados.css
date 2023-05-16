@@ -1,0 +1,24 @@
+
+@media (max-width: 674px){
+
+  .section-resultados{
+    grid-area: area-resultados;
+   
+       
+  }
+
+}
+
+@media (min-width:675px) {
+
+  .section-resultados {
+    grid-area: area-resultados;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40% 1fr;
+    
+    gap: 5px; 
+  }
+
+
+}

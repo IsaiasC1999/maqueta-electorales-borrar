@@ -1,0 +1,45 @@
+.grafica {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 300px;
+    width: 300px; */
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.grafica h2 {
+  color: white;
+}
+
+@media(min-width: 600px) {
+
+   .section-grafica{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #1C2833;
+    color: white;
+   }
+
+    .grafica {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        height: 100%;
+        width: 400px;
+        /* padding: 10px; */
+        margin: 10px;
+    }
+
+
+    .grafica h2 {
+      color: white;
+    }
+
+}

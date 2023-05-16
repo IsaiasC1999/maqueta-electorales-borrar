@@ -1,0 +1,187 @@
+
+@media(max-width: 674px){
+
+  .section-resultados{
+    margin-top: 10px;
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+    
+  }
+
+  .card{
+    color: white;
+    width: 90%;
+    height: 200px;
+    margin: 3px;
+    border: none !important;
+  } 
+  div.imagen {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(0, 0, 0, 1) 80%), url("./img/german-alfajo2.jpg") center;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+  }
+  .pie-card {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(71, 102, 71);
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0px;
+  }
+  .card-ultimos {
+    width: 90%;
+    background-color: #273746;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f7f7;
+    margin: 3px;
+  }  
+  
+  .card-ultimos .div_puesto {
+  
+    background-color: #1C2833;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  } 
+  .card-ultimos .div-porcetaje {
+  
+    background-color: #1C2833;
+    width: 100px;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .card-ultimos .div-porcetaje h4 {
+    margin: 0px;
+  }
+  
+  .card-ultimos .div-porcetaje p {
+    margin: 0px;
+  }
+  
+  .div_puesto h1 {
+    margin: 0px;
+  }  
+  
+  
+  .otros-voto{
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:674px) {
+
+  /* card puestos */
+
+
+  div.imagen {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(0, 0, 0, 1) 80%), url("./img/german-alfajo2.jpg") center;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+  }
+  .card{
+    color: white;
+    border: none !important;
+  }
+
+
+  .pie-card {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(41, 97, 41);
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0px;
+
+  }
+
+
+  /* card ultimos */
+  .card-ultimos {
+    background-color: #273746;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f7f7;
+  }  
+
+  .card-ultimos .div_puesto {
+
+    background-color: #1C2833;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
+  .card-ultimos .div-porcetaje {
+
+    background-color: #1C2833;
+    width: 100px;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .card-ultimos .div-porcetaje h4 {
+    margin: 0px;
+  }
+
+  .card-ultimos .div-porcetaje p {
+    margin: 0px;
+  }
+
+  .div_puesto h1 {
+    margin: 0px;
+  }  
+
+  
+  .otros-voto{
+    text-align: center;
+  }
+  
+
+}

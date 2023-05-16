@@ -1,0 +1,97 @@
+
+
+.card-comicios {
+    background-color: #1C2833;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .body-card {
+    width: 200px; 
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .info-card {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+  }
+
+  .card-votos {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: baseline;
+  }
+
+  .card-cantidad {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: baseline;
+  }
+
+
+@media(min-width:674px){
+    .card-comicios {
+
+        background-color: #1C2833;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      .body-card {
+        width: 200px; 
+        margin: 10px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+    
+      .info-card {
+        padding: 5px;
+        width: 70%;
+        height: auto;
+        border: 1px solid white;
+      }
+    
+      .card-votos {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: baseline;
+        align-items: center;
+      }
+    
+      .card-cantidad {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: baseline;
+        align-items: center;
+      }
+}

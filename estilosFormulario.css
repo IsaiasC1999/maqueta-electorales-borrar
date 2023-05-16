@@ -1,0 +1,164 @@
+
+.section-form {
+    grid-area: area-form;
+    padding: 5%;
+    background-color: #1C2833;
+    /* height: 100%; */
+
+}
+
+.section-form h5 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+/* Línea debajo del título */
+.section-form h5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.section-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+}
+
+.section-form div label {
+    color: white;
+    font-size: 1rem;
+}
+
+.section-form form div.input-box {
+    margin: 3px;
+    display: flex;
+}
+
+.section-form form div.input-box input,
+.section-form form div.input-box select {
+    height: 35px;
+    outline: none;
+    border-radius: 2%;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    border-bottom-width: 2px;
+    transition: all 0.5s ease;
+}
+
+.section-form form div.input-box input::placeholder{
+    padding-left: 5%;
+    font-size: 0.9rem;
+    opacity: 80%;
+}
+
+/* Efectos en los inputs y selects */
+/* NO FUNCAAA ??? */
+.section-form form div.input-box input:focus,
+.section-form form div.input-box input:valid,
+.section-form form div.input-box select:focus,
+.section-form form div.input-box select:valid {
+    border-bottom-color: darkblue;
+}
+
+.section-form form .input-check {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtitulo-form {
+
+    padding-top: 10px;
+
+}
+
+.select-form {
+
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.container-interno-form {
+
+    margin-top: 10px;
+
+}
+
+.container-internosub-form {
+
+    padding: 5px;
+    display: block;
+
+}
+
+.btn {
+
+    margin: 10px;
+    width: 100px;
+
+}
+
+.container-button-form {
+
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+#button-apply {
+
+    width: 40%;
+
+}
+
+#button-reset {
+
+    width: 40%;
+
+}
+
+@media (min-width: 320px) {
+
+    .section-form form div.input-box {
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+
+    .section-form form div.input-box input,
+    .section-form form div.input-box select {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1075px) {
+    .section-form form div.input-box {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .section-form form div.input-box input,
+    .section-form form div.input-box select {
+        width: 70%;
+    }
+
+}
