@@ -46,8 +46,8 @@ main {
 
 .section-grafica {
   grid-area: area-grafica;
-  /* background-color: rgb(255, 255, 255); */
-}
+  background-color: rgb(255, 255, 255);
+ }
 
 
 
@@ -98,18 +98,18 @@ main {
 
 
   .contenido {
+    margin: 0px;
     display: grid;
     overflow: hidden;
-    /* background-color: lightblue; */
-    max-height: 100vh;
+    background-color: lightblue;
+    max-height:100vh;
 
     grid-template:
       /* "area-btn area-btn"  auto */
-
-      "area-comision area-grafica" 25%
-      "area-resultados area-resultados" 75% /
-      65% 35%;
-
+      "area-comision area-grafica" 30%
+      "area-resultados area-resultados"  70%/
+            65%         35%       ;
+  
   }
 
 }
@@ -121,7 +121,6 @@ main {
   
 
 @media (min-width:674px) {
-
 
 
   .section-btn {
@@ -165,8 +164,8 @@ main {
       grid-template:
         /* "area-btn area-btn"  auto */
 
-        "area-comision area-grafica" 25%
-        "area-resultados area-resultados" 75% /
+        "area-comision area-grafica" 30%
+        "area-resultados area-resultados" 70% /
         65%             35%;
 
     }
